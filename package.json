@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cp .env.prod .env.production && cdk synth -c env=prod",
+    "build": "cp .env.dev .env.production && next build",
     "build:dev": "cp .env.dev .env.production && cdk synth -c env=dev",
     "build:qa": "cp .env.qa .env.production && cdk synth -c env=qa",
     "build:ppt": "cp .env.ppt .env.production && cdk synth -c env=ppt",
@@ -18,7 +18,7 @@
     "test:unit": "NEXT_PUBLIC_ANALYTICS_POST_MESSAGE_TARGET_URL=http://localhost:3000 jest",
     "test:unit:watch": "jest --watch",
     "test:functional": "codeceptjs run --tests -c ./codeceptjs-test/codecept.conf.js --profile https://qa-gift-guide.selfridges.com --reporter mochawesome --verbose",
-    "test:integration":"codeceptjs run --features --grep @integration -c ./codeceptjs-test/codecept.conf.js --profile https://qa-gift-guide.selfridges.com --reporter mochawesome",
+    "test:integration": "codeceptjs run --features --grep @integration -c ./codeceptjs-test/codecept.conf.js --profile https://qa-gift-guide.selfridges.com --reporter mochawesome",
     "test:functional:local": "codeceptjs run --tests -c ./codeceptjs-test/codecept.conf.js --profile http://localhost:3000 --reporter mochawesome --verbose"
   },
   "dependencies": {
