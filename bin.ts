@@ -16,7 +16,7 @@ builder
         region: "us-east-1",
       },
       analyticsReporting: true,
-      description: "Selfridges Christmas Gift Guide",
+      description: "Christmas Gift Guide",
     });
   })
   .catch((e) => {

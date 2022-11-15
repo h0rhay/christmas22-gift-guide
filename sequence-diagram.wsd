@@ -8,7 +8,7 @@ box "Next js" #FFBBBB
 participant API              as api
 participant UI               as ui
 end box
-database    "Selfridges API" as sapi
+database    " API" as sapi
 
 == Initial build ==
 

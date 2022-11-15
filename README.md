@@ -1,6 +1,6 @@
-# Selfridges Christmas Gift Guide '22
+#  Christmas Gift Guide '22
 
-Selfridges Christmas Gift Guide '22
+ Christmas Gift Guide '22
 
 ## Getting Started
 
