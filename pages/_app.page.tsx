@@ -29,6 +29,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <meta property="twitter:title" content={seoContext.title} />
             <meta name="twitter:description" content={seoContext.description} />
             <link rel="icon" href="/img/selfridges-favicon.svg" />
+            <meta name="robots" content="noindex,follow" />
           </Head>
           <AnimatePresence exitBeforeEnter initial={false}>
             <motion.div
