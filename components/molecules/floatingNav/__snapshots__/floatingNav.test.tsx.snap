@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Floating Nav when first category is selected should match snapshot: first category is selected 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <div
+      class="ThemeContext__ColoredSurface-sc-7o1m9v-0 rMDNb colored-surface"
+    >
+      <div
+        class="floatingNav__Wrapper-sc-16mop7q-0 gecmAm"
+        data-projection-id="13"
+        data-test-id="floatingNav"
+        draggable="false"
+        style="user-select: none;"
+      >
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="14"
+        >
+          <span>
+            HOME
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="15"
+        >
+          <span>
+            NEXT
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="16"
+        >
+          <svg
+            fill="currentColor"
+            height="25"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="17"
+        >
+          <svg
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+            />
+            <polyline
+              points="16 6 12 2 8 6"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="15"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Floating Nav when last category is selected should match snapshot: last category is selected 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <div
+      class="ThemeContext__ColoredSurface-sc-7o1m9v-0 rMDNb colored-surface"
+    >
+      <div
+        class="floatingNav__Wrapper-sc-16mop7q-0 gecmAm"
+        data-projection-id="23"
+        data-test-id="floatingNav"
+        draggable="false"
+        style="user-select: none;"
+      >
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="24"
+        >
+          <span>
+            HOME
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="25"
+        >
+          <span>
+            PREV
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="26"
+        >
+          <svg
+            fill="currentColor"
+            height="25"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="27"
+        >
+          <svg
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+            />
+            <polyline
+              points="16 6 12 2 8 6"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="15"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Floating Nav when no category is selected should match snapshot: no category is selected 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <div
+      class="ThemeContext__ColoredSurface-sc-7o1m9v-0 rMDNb colored-surface"
+    >
+      <div
+        class="floatingNav__Wrapper-sc-16mop7q-0 gecmAm"
+        data-projection-id="33"
+        data-test-id="floatingNav"
+        draggable="false"
+        style="user-select: none;"
+      >
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="34"
+        >
+          <span>
+            NEXT
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="35"
+        >
+          <svg
+            fill="currentColor"
+            height="25"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+          data-projection-id="36"
+        >
+          <svg
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+            />
+            <polyline
+              points="16 6 12 2 8 6"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="15"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Floating Nav when selected category is neither first nor last category should match snapshot: selected category is neither first nor last category 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <div
+      class="ThemeContext__ColoredSurface-sc-7o1m9v-0 rMDNb colored-surface"
+    >
+      <div
+        class="floatingNav__Wrapper-sc-16mop7q-0 gecmAm"
+        data-test-id="floatingNav"
+        draggable="false"
+        style="user-select: none;"
+      >
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+        >
+          <span>
+            HOME
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+        >
+          <span>
+            PREV
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+        >
+          <span>
+            NEXT
+          </span>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+        >
+          <svg
+            fill="currentColor"
+            height="25"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+        </button>
+        <button
+          class="circleButton__Wrapper-sc-o294s7-0 kmASHX"
+        >
+          <svg
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+            />
+            <polyline
+              points="16 6 12 2 8 6"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="15"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

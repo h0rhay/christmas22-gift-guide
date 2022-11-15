@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should match snapshot 1`] = `
+<div>
+  <div
+    class="checkbox__CheckboxContainer-sc-tki452-0 gfYtLH"
+  >
+    <label
+      class="container"
+      for="foo"
+    >
+      <input
+        id="foo"
+        type="checkbox"
+      />
+      <span
+        class="checkmark"
+      />
+      foobar
+    </label>
+  </div>
+</div>
+`;

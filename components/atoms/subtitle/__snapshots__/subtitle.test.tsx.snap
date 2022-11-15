@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubTitle Subtitle should match snapshot 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <h3
+      class="subtitle__StyledSubTitle-sc-1awsyh-0 fUCCMT xmas-subtitle "
+    >
+      Sample test text for subtitle
+    </h3>
+  </div>
+</div>
+`;

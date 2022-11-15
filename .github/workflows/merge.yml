@@ -1,0 +1,138 @@
+name: Merge & Deploy
+
+on:
+  workflow_dispatch:
+    branches:
+      - "**"
+  push:
+    branches:
+      - main
+
+jobs:
+  qa-deployment:
+    name: QA
+    runs-on: ubuntu-latest
+    environment: "QA"
+    env:
+      AWS_ACCESS_KEY: ${{secrets.AWS_ACCESS_KEY}}
+      AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Install UI dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build UI package
+        run: |
+          sed -i -e 's/xxxx/${{ env.API_KEY }}/g' ./.env.qa
+          yarn build:qa
+
+      - name: CDK Bootstrap
+        run: yarn bootstrap
+
+      - name: CDK Deployment
+        run: yarn deploy -c env=qa --require-approval never
+
+      - name: Integration test
+        run: yarn test:integration
+
+      - name: Compatibility test
+        run: echo 'Compatibility test'
+
+  ppt-deployment:
+    name: Pre-Production
+    needs: ["qa-deployment"]
+    runs-on: ubuntu-latest
+    environment: "PRE-PRODUCTION"
+    env:
+      AWS_ACCESS_KEY: ${{secrets.AWS_ACCESS_KEY}}
+      AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Install UI dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build UI package
+        run: |
+          sed -i -e 's/xxxx/${{ env.API_KEY }}/g' ./.env.ppt
+          yarn build:ppt
+
+      - name: CDK Bootstrap
+        run: yarn bootstrap
+
+      - name: CDK Deployment
+        run: yarn deploy -c env=ppt --require-approval never
+
+      - name: E2E test
+        run: echo "E2E test"
+
+  prod-deployment:
+    name: Production
+    needs: ["ppt-deployment"]
+    runs-on: ubuntu-latest
+    environment: "PRODUCTION"
+    env:
+      AWS_ACCESS_KEY: ${{secrets.AWS_ACCESS_KEY}}
+      AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Install UI dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build UI package
+        run: |
+          sed -i -e 's/xxxx/${{ env.API_KEY }}/g' ./.env.prod
+          yarn build
+
+      - name: CDK Bootstrap
+        run: yarn bootstrap
+
+      - name: CDK Deployment
+        run: yarn deploy -c env=prod --require-approval never

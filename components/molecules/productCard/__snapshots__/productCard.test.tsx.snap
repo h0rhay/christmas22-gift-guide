@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard should match snapshot 1`] = `
+<div>
+  <div
+    class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+  >
+    <div
+      class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+      type="product"
+    >
+      <div
+        style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+      >
+        <img
+          alt="Test Brand Test Product Name"
+          class=""
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/5120-10004-4438440879_M?PDP_M_ZOOM); background-position: 0% 0%;"
+        />
+        <noscript />
+      </div>
+    </div>
+    <div
+      class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+    >
+      <h4
+        class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+      >
+        Test Brand
+      </h4>
+      <p>
+        Test Product Name
+      </p>
+      <p
+        class="product-card-price"
+      >
+        £
+        £300
+      </p>
+    </div>
+    <div
+      class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+    >
+      <button
+        class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+        data-test-id="reverse"
+        type="button"
+      >
+        <a
+          href="https://www.selfridges.com/GB/en/cat/burberry-furley-checked-sliders_5120-10004-4438440879"
+          target="_blank"
+        >
+          Shop Now
+        </a>
+      </button>
+    </div>
+  </div>
+</div>
+`;

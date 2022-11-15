@@ -1,0 +1,50 @@
+@startuml
+
+skinparam ParticipantPadding 20
+skinparam BoxPadding 20
+actor       Customer         as customer
+boundary    Build            as build
+box "Next js" #FFBBBB
+participant API              as api
+participant UI               as ui
+end box
+database    "Selfridges API" as sapi
+
+== Initial build ==
+
+build --> api : md files
+
+hnote over build
+  API calls will
+  be made only
+  in build time
+endhnote
+
+box "Subteam"
+api <--> sapi : Stock API
+api <--> sapi : Product API
+api <--> sapi : Price API
+end box
+api --> api   : Generate static pages
+api --> ui    : Deploy pages in S3 bucket
+
+== ISR - Incremental Static Regeneration ==
+
+loop called every hour
+
+  ui --> api   : Calls Build API
+  activate api
+  api <--> sapi : Stock, Product & Price API
+  api --> api   : Generate static pages
+  return Update pages in S3 bucket
+
+end
+
+==  ==
+
+customer --> ui : www.selfridges.com/xmas
+ui --> customer : CHRISTMAS GIFT GUIDE UI
+
+==  ==
+
+@enduml

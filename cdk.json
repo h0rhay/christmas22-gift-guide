@@ -1,0 +1,21 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin.ts",
+  "context": {
+    "dev": {
+      "domainName": "dev-gift-guide.selfridges.com",
+      "certificateArn": "arn:aws:acm:us-east-1:907616029850:certificate/478c5656-7b96-4409-af66-3eb8258102c8"
+    },
+    "qa": {
+      "domainName": "qa-gift-guide.selfridges.com",
+      "certificateArn": "arn:aws:acm:us-east-1:256582965106:certificate/1916bc16-a869-4be6-b993-a6235557562d"
+    },
+    "ppt": {
+      "domainName": "ppt-gift-guide.selfridges.com",
+      "certificateArn": "arn:aws:acm:us-east-1:221026817504:certificate/b907db7f-0104-4b44-b6f1-ee5fdd64ca71"
+    },
+    "prod": {
+      "domainName": "gift-guide.selfridges.com",
+      "certificateArn": "arn:aws:acm:us-east-1:812595376171:certificate/861692b0-178d-4204-9700-58572691e997"
+    }
+  }
+}

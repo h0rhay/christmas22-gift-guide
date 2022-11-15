@@ -1,0 +1,1303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel should match snapshot 1`] = `
+<div>
+  <div
+    class="fullWidthWrap__FullWidthWrapStyle-sc-1wm7pnc-0 zZXhu"
+  >
+    <div
+      class="slick-slider productCarousel__StyledSlider-sc-iqpi1u-1 jLbLcj slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt=" Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  />
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="5"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt=" Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  />
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <div
+            class="productCarousel__Pager-sc-iqpi1u-0 idJdmL"
+          />
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class="productCarousel__Pager-sc-iqpi1u-0 idJdmL"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel should match snapshot: will return nothing as the dataset doesn't have enough info (price or brand) 1`] = `
+<div>
+  <div
+    class="fullWidthWrap__FullWidthWrapStyle-sc-1wm7pnc-0 zZXhu"
+  >
+    <div
+      class="slick-slider productCarousel__StyledSlider-sc-iqpi1u-1 jLbLcj slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt=" Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  />
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="5"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt=" Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  />
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <div
+            class="productCarousel__Pager-sc-iqpi1u-0 idJdmL"
+          />
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class="productCarousel__Pager-sc-iqpi1u-0 idJdmL"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel should match snapshot: will return nothing as the dataset doesn't have enough info 1`] = `
+<div>
+  <div
+    class="fullWidthWrap__FullWidthWrapStyle-sc-1wm7pnc-0 zZXhu"
+  >
+    <div
+      class="slick-slider productCarousel__StyledSlider-sc-iqpi1u-1 jLbLcj slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt=" Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  />
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt="Fakiaga Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  >
+                    Fakiaga
+                  </h4>
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="5"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="productCard__StyledProductCard-sc-phbwqf-0 hNMhFP"
+              >
+                <div
+                  class="imageComponent__StyledImage-sc-y6629v-0 BNymA image-component__container"
+                  type="product"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <img
+                      alt=" Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing"
+                      class=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(https://images.selfridges.com/is/image/selfridges/R03957988_WHITEBROWN1_ALT02?$PDP_M_ZOOM$); background-position: 0% 0%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="productCard__ProductDetails-sc-phbwqf-1 cPSSYZ"
+                >
+                  <h4
+                    class="productCard__BrandName-sc-phbwqf-2 cuXzdU"
+                  />
+                  <p>
+                    Dress for dressing. Dress for dressing. Dress for dressing. Dress for dressing
+                  </p>
+                  <p
+                    class="product-card-price"
+                  >
+                    £
+                    212
+                  </p>
+                </div>
+                <div
+                  class="productCard__ButtonContainer-sc-phbwqf-3 eqmKwk"
+                >
+                  <button
+                    class="button__ButtonStyles-sc-lri851-0 bPsHIA"
+                    data-test-id="reverse"
+                    type="button"
+                  >
+                    <a
+                      href="/"
+                      target="_blank"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <div
+            class="productCarousel__Pager-sc-iqpi1u-0 idJdmL"
+          />
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class="productCarousel__Pager-sc-iqpi1u-0 idJdmL"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

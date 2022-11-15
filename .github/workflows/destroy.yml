@@ -1,0 +1,62 @@
+name: Destroy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Choose the environment
+        options:
+          - DEVELOPMENT
+          - QA
+          - PRE-PRODUCTION
+          - PRODUCTION
+        required: true
+
+jobs:
+  deploy:
+    name: Destroy
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+    env:
+      AWS_ACCESS_KEY: ${{secrets.AWS_ACCESS_KEY}}
+      AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Install UI dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build UI package
+        run: yarn build
+
+      - name: CDK Bootstrap
+        run: yarn bootstrap
+
+      - name: CDK Destroy
+        if: ${{ github.event.inputs.environment == 'DEVELOPMENT' }}
+        run: yarn deploy -c env=dev --force
+
+      - if: ${{ github.event.inputs.environment == 'QA' }}
+        run: yarn deploy -c env=qa --force
+
+      - if: ${{ github.event.inputs.environment == 'PRE-PRODUCTION' }}
+        run: yarn deploy -c env=ppt --force
+
+      - if: ${{ github.event.inputs.environment == 'PRODUCTION' }}
+        run: yarn deploy -c env=prod --force

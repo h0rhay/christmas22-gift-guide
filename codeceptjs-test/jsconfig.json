@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "include": ["codeceptjs-test/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

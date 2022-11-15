@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion test should match snapshot 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <div
+      class="ThemeContext__ColoredSurface-sc-7o1m9v-0 fAuFr colored-surface"
+    >
+      <article
+        class="accordion__StyledAccordion-sc-1fl6fpj-0 bJhxsY xmas-styled-accordion"
+      >
+        <section
+          class="siteWidthWrapper__SiteWidthContainer-sc-1kx0urc-0 ckJkzr site_width_wrapper"
+        >
+          <header>
+            <div
+              class="accordionHeader__StyledAccordionHeader-sc-r8bbxx-0 kyXyzS"
+            >
+              <svg
+                class="--left-shape"
+                fill="none"
+                height="32"
+                viewBox="0 0 64 32"
+                width="64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="accordion-header__path"
+                  d="M11.5295 0H0V32H37.4525L64 32C48.8641 32 37.6617 22.8055 31.1436 12.6639C26.7072 5.76137 19.7347 0 11.5295 0Z"
+                />
+              </svg>
+              <div
+                class="accordionHeader__CenterShapeContainer-sc-r8bbxx-1 YmNsT"
+              >
+                <h4
+                  class="accordion-header__title"
+                >
+                  Beauty
+                </h4>
+              </div>
+              <svg
+                class="--right-shape"
+                fill="none"
+                height="32"
+                viewBox="0 0 64 32"
+                width="64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="accordion-header__path"
+                  d="M11.5295 0H0V32H37.4525L64 32C48.8641 32 37.6617 22.8055 31.1436 12.6639C26.7072 5.76137 19.7347 0 11.5295 0Z"
+                />
+              </svg>
+            </div>
+            <h2
+              class="title__StyledTitle-sc-z5nezq-0 lfjBkS xmas-title accordion-title"
+            >
+              Recipe for a sustainable christmas
+            </h2>
+            <h3
+              class="subtitle__StyledSubTitle-sc-1awsyh-0 hrOwwR xmas-subtitle accordion-subtitle"
+            >
+              By Artist Name
+            </h3>
+          </header>
+          <div
+            class="accordion-bottom-space"
+          />
+        </section>
+      </article>
+    </div>
+    <div
+      class="ThemeContext__ColoredSurface-sc-7o1m9v-0 rMDNb colored-surface"
+    >
+      <article
+        class="accordion__StyledAccordion-sc-1fl6fpj-0 dOTFgk xmas-styled-accordion"
+      >
+        <section
+          class="siteWidthWrapper__SiteWidthContainer-sc-1kx0urc-0 ckJkzr site_width_wrapper"
+        >
+          <header>
+            <div
+              class="accordionHeader__StyledAccordionHeader-sc-r8bbxx-0 bPHbRf"
+            >
+              <svg
+                class="--left-shape"
+                fill="none"
+                height="32"
+                viewBox="0 0 64 32"
+                width="64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="accordion-header__path"
+                  d="M11.5295 0H0V32H37.4525L64 32C48.8641 32 37.6617 22.8055 31.1436 12.6639C26.7072 5.76137 19.7347 0 11.5295 0Z"
+                />
+              </svg>
+              <div
+                class="accordionHeader__CenterShapeContainer-sc-r8bbxx-1 isLeGf"
+              >
+                <h4
+                  class="accordion-header__title"
+                >
+                  Food
+                </h4>
+              </div>
+              <svg
+                class="--right-shape"
+                fill="none"
+                height="32"
+                viewBox="0 0 64 32"
+                width="64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="accordion-header__path"
+                  d="M11.5295 0H0V32H37.4525L64 32C48.8641 32 37.6617 22.8055 31.1436 12.6639C26.7072 5.76137 19.7347 0 11.5295 0Z"
+                />
+              </svg>
+            </div>
+            <h2
+              class="title__StyledTitle-sc-z5nezq-0 lfjBkS xmas-title accordion-title"
+            >
+              Food page
+            </h2>
+            <h3
+              class="subtitle__StyledSubTitle-sc-1awsyh-0 bhAuAQ xmas-subtitle accordion-subtitle"
+            >
+              Foobar
+            </h3>
+          </header>
+          <div
+            class="accordion-bottom-space"
+          />
+        </section>
+      </article>
+    </div>
+  </div>
+</div>
+`;

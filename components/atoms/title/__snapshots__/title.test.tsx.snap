@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Square should match snapshot 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <h2
+      class="title__StyledTitle-sc-z5nezq-0 gOeEph xmas-title "
+    >
+      Sample test text for title
+    </h2>
+  </div>
+</div>
+`;

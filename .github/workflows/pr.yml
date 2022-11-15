@@ -1,0 +1,40 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main
+      - release
+
+jobs:
+  build:
+    name: PR Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build UI package
+        run: yarn build:dev
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Unit test
+        run: yarn test:unit --ci
+
+      - name: Functional test
+        run: yarn test:functional
+
+      - name: Layout test
+        run: echo 'Layout test'

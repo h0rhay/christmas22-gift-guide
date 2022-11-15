@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should match snapshot 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <h1
+      class="heading__Title-sc-4bkneh-0 hoENQY"
+    >
+      foo
+    </h1>
+  </div>
+</div>
+`;

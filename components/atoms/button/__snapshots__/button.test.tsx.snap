@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot 1`] = `
+<div>
+  <div
+    class="ThemeContext__ColoredSurface-sc-7o1m9v-0 cumPXi colored-surface"
+  >
+    <button
+      class="button__ButtonStyles-sc-lri851-0 guzMzG"
+      type="button"
+    >
+      <a
+        class="button__a"
+        href=""
+      >
+        foo
+      </a>
+    </button>
+  </div>
+</div>
+`;
